@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Assembly Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header><h1>Assemble Your Car</h1></header>
+
+    <div class="draggableContainer">
+         
+        <div class="box" draggable="true"id="draggable 1"><img src="s-l1200.jpg" alt="Engine"></div>
+        <div class="box" draggable="true"id="draggable 2"><img src="wheels.jpg" alt="Wheels"></div>
+        <div class="box" draggable="true"id="draggable 3"><img src="door.jpg" alt="Doors"></div>
+        <div class="box" draggable="true"id="draggable 4"><img src="seats.jpg" alt="Seats"></div>
+        <div class="box" draggable="true"id="draggable 5"><img src="steering.jpg" alt="Steering Wheel"></div>
+        <div class="box" draggable="true"id="draggable 6"><img src="headlights.png" alt="Headlights"></div>
+        <div class="box" draggable="true"id="draggable 7"><img src="rearview.jpg" alt="Mirrors"></div>
+        <div class="box" draggable="true"id="draggable 8"><img src="windshield.jpg" alt="Windshield"></div>
+        <div class="box" draggable="true"id="draggable 9"><img src="pipe.jpg" alt="Exhaust"></div>
+        <div class="box" draggable="true"id="draggable 10"><img src="car-rear-bumper.jpg" alt="Bumper"></div>
+    </div>
+
+    <div class="droppableContainer">
+        <div class="droppable" data-draggable-id="draggable1"> Engine </div>
+        <div class="droppable" data-draggable-id="draggable2"> Wheels </div>
+        <div class="droppable" data-draggable-id="draggable3"> Doors </div>
+        <div class="droppable" data-draggable-id="draggable4"> Seats </div>
+        <div class="droppable" data-draggable-id="draggable5"> Steering Wheel</div>
+        <div class="droppable" data-draggable-id="draggable6"> Headlights </div>
+        <div class="droppable" data-draggable-id="draggable7"> Mirrors </div>
+        <div class="droppable" data-draggable-id="draggable8"> Windshield </div>
+        <div class="droppable" data-draggable-id="draggable9"> Exhaust Pipe </div>
+        <div class="droppable" data-draggable-id="draggable10"> Bumper </div>
+    </div>
+</body>
+</html>
